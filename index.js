@@ -1,3 +1,3 @@
-$('submitCoffee').click(function(){
+$('submitCoffee').on('click',function(){
     alert("I have been clicked")
 })
