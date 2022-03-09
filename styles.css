@@ -1,0 +1,48 @@
+body{
+    background-color: #c6cdd2;
+}
+.mainHeading{
+    text-align: center;
+    color: #6F4E37;
+    padding: 5px;
+}
+.about{
+    text-align: center;
+    color: #6F4E37;
+    padding: 5px;
+    margin: auto;
+}
+#descriptionAbout{
+    text-align: left;
+    margin:auto;
+    overflow-wrap: break-word;
+    padding: 15px;
+    width: 500px;
+    color: #6F4E37;
+}
+#devDetails{
+    text-align: left;
+    margin:auto;
+    overflow-wrap: break-word;
+    padding: 15px;
+    width: 500px;
+    color: #6F4E37;
+}
+.addCoffeeForm{
+    text-align: center;
+}
+#formHeader{
+    text-align: center;
+    color: #6F4E37;
+    padding: 5px;
+}
+#coffeeInLabel{
+    text-align: center;
+    color: #6F4E37;
+    padding: 5px;
+}
+#submitCoffee{
+    text-align: center;
+    color: #6F4E37;
+    padding: 5px;
+}
