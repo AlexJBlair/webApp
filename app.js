@@ -10,15 +10,16 @@ app.use(bodyParser.json());
 
 app.get('/', (req, res) => {
   res.sendFile(__dirname + '/index.html');
+})
+app.get('/styles.css', (req, res) =>{
   res.sendFile(__dirname + '/styles.css');
-  res.sendFile(__dirname + '/coffee.ico');
+})
+app.get('index.js', (req, res) =>{
   res.sendFile(__dirname + '/index.js');
 })
 app.post('/', function(req, res) {
   var btnResponse = req.body.btnResponse
 });
-
-// app.use(favicon(__dirname + '/coffee.ico'));
 
 app.listen(port, () => {
   console.log('App started')
